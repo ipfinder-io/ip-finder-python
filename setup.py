@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="ipfinder",
+    name="ipfinder-io",
     version="1.0.0",
     description="Official Python library for IPFinder",
     long_description=long_description,
