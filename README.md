@@ -25,7 +25,7 @@ See the [official documentation](https://ipfinder.io/docs).
 ## Installation
 Installing using pip:
 ```shell
-pip install ipfinder
+pip install ipfinder-io
 ```
 
 ## How to Use
