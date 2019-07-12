@@ -1,0 +1,5 @@
+/tests/ export-ignore
+/.gitattributes export-ignore
+/..editorconfig export-ignore
+/.gitignore export-ignore
+/changelog.md export-ignore

@@ -1,0 +1,3 @@
+requests
+tox
+pytest

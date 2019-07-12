@@ -1,0 +1,29 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = ">=2.8.0,<=3.10.1"
+
+[packages]
+requests = "*"
+tox = "*"
+
+[requires]
+python_version = "3.6"
+
+[scripts]
+auth =  "python3  examples/Authentication_lookup.py"
+address =  "python3  examples/address_lookup.py"
+asn =  "python3  examples/asn_lookup.py"
+firewall =  "python3  examples/firewall_lookup.py"
+ranges =  "python3  examples/ranges_lookup.py"
+token =  "python3  examples/token_info.py"
+getDomain =  "python3  examples/getDomain.py"
+DomainHistory =  "python3  examples/DomainHistory.py"
+domainby =  "python3  examples/domainby.py"
+test     = "pytest -vs"
+setup    = "python3 setup.py sdist bdist_wheel"
+[pipenv]
+allow_prereleases = true
