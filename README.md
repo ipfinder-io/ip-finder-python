@@ -40,7 +40,7 @@ import ipfinder
 config = ipfinder.config() #  emty token == free
 
 # lookup your IP address information
-auth = con.Authentication()
+auth = config.Authentication()
 
 auth.details
 ```
@@ -54,7 +54,7 @@ import ipfinder
 config = ipfinder.config('YOUR_TOKEN_GOES_HERE')
 
 # lookup your IP address information
-auth = con.Authentication()
+auth = config.Authentication()
 
 auth.details
 ```
@@ -68,7 +68,7 @@ config = ipfinder.config('YOUR_TOKEN_GOES_HERE')
 
 # GET Get details for 1.0.0.0
 
-ip = con.getAddressInfo('1.0.0.0')
+ip = config.getAddressInfo('1.0.0.0')
 
 ip.details
 
@@ -85,7 +85,7 @@ import ipfinder
 config = ipfinder.config('YOUR_TOKEN_GOES_HERE')
 
 # lookup Asn information
-asn = con.getAsn('AS1')
+asn = config.getAsn('AS1')
 
 asn.details
 ```
@@ -103,7 +103,7 @@ asn = 'as36947';
 
 # lookup Asn information
 
-data = con.getFirewall(asn, 'nginx_deny')
+data = config.getFirewall(asn, 'nginx_deny')
 
 data.details
 
@@ -122,7 +122,7 @@ config = ipfinder.config('YOUR_TOKEN_GOES_HERE')
 org = 'Telecom Algeria';
 
 # lookup Organization information
-data = con.getRanges(org)
+data = config.getRanges(org)
 
 data.details
 
@@ -138,7 +138,7 @@ import ipfinder
 config = ipfinder.config('YOUR_TOKEN_GOES_HERE')
 
 # lookup TOKEN information
-data = con.getStatus()
+data = config.getStatus()
 
 
 data.details
@@ -158,7 +158,7 @@ config = ipfinder.config('YOUR_TOKEN_GOES_HERE')
 #  domain name
 name = 'google.com';
 
-data = con.getDomain(name)
+data = config.getDomain(name)
 
 data.details
 
@@ -176,7 +176,7 @@ config = ipfinder.config('YOUR_TOKEN_GOES_HERE')
 # domain name
 name = 'google.com';
 
-data = con.getDomainHistory(name)
+data = config.getDomainHistory(name)
 
 data.details
 
@@ -194,7 +194,7 @@ config = ipfinder.config('YOUR_TOKEN_GOES_HERE')
 # list live domain by country DZ,US,TN,FR,MA
 by = 'DZ';
 
-dby = con.getDomainBy(by)
+dby = config.getDomainBy(by)
 
 dby.details
 
