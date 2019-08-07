@@ -1,6 +1,8 @@
 <img src='https://camo.githubusercontent.com/46886c3e689a0d4a3f6c0733d1cab5d9f9a3926d/68747470733a2f2f697066696e6465722e696f2f6173736574732f696d616765732f6c6f676f732f6c6f676f2e706e67' height='60' alt='IP Finder'></a>
 #  IPFinder Python Client Library
 
+[![PyPI version](https://badge.fury.io/py/ipfinder-io.svg)](https://badge.fury.io/py/ipfinder-io)
+
 The official Python client library for the [IPFinder.io](https://ipfinder.io) get details for :
 -  IP address details (city, region, country, postal code, latitude and more ..)
 -  ASN details (Organization name, registry,domain,comany_type, and more .. )
